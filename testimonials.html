@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Testimonials & Reviews | CrepeCrafters</title>
+  <meta name="description" content="Read what local patrons, college students, and culinary enthusiasts say about CrepeCrafters authentic Parisian sweet and savory crepes.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <span>📍 42 Artisan Way, Gourmet District</span>
+        <span>🕒 Open Daily: 8:00 AM – 10:00 PM</span>
+        <span>📞 (555) 782-7373</span>
+      </div>
+      <div>
+        <span class="top-bar-highlight">✨ College Special: 15% OFF with Student ID!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Crepe<span>Crafters</span></span>
+          <span class="brand-tagline">Sweet. Savory. Simply Delicious.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="sweet-crepes.html" class="nav-link">Sweet Crepes</a></li>
+        <li><a href="savory-crepes.html" class="nav-link">Savory Crepes</a></li>
+        <li><a href="offers.html" class="nav-link">Offers</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="custom-crepe.html" class="nav-link">Custom Crepe</a></li>
+        <li><a href="testimonials.html" class="nav-link active">Testimonials</a></li>
+        <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="visit.html" class="nav-link">Visit Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="custom-crepe.html" class="btn btn-primary btn-sm">Build Crepe</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-header">
+      <div class="brand-name" style="font-size: 1.25rem;">Crepe<span>Crafters</span></div>
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="menu.html" class="mobile-nav-link">Menu</a>
+      <a href="sweet-crepes.html" class="mobile-nav-link">Sweet Crepes</a>
+      <a href="savory-crepes.html" class="mobile-nav-link">Savory Crepes</a>
+      <a href="offers.html" class="mobile-nav-link">Offers</a>
+      <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+      <a href="custom-crepe.html" class="mobile-nav-link">Custom Crepe</a>
+      <a href="testimonials.html" class="mobile-nav-link active">Testimonials</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="visit.html" class="mobile-nav-link">Visit Us</a>
+    </nav>
+  </aside>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content reveal">
+      <h1>Customer Testimonials</h1>
+      <p>Discover real stories and verified reviews from crepe lovers who visit us every week.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Testimonials</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rating Highlights Bar -->
+  <section style="background-color: var(--bg-card); padding: 40px 0; border-bottom: 1px solid var(--border-light);">
+    <div class="container">
+      <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 30px; text-align: center;">
+        <div>
+          <div style="font-size: 2.8rem; font-family: var(--font-serif); font-weight: 800; color: var(--strawberry);">4.9 / 5.0</div>
+          <div style="color: var(--golden); font-size: 1.2rem; margin-bottom: 4px;">★★★★★</div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">Over 520+ Verified Reviews</p>
+        </div>
+        <div style="height: 60px; width: 1px; background-color: var(--border-light);" class="hide-mobile"></div>
+        <div>
+          <div style="font-size: 2.8rem; font-family: var(--font-serif); font-weight: 800; color: var(--choco-dark);">98%</div>
+          <div style="color: var(--golden); font-weight: 700; margin-bottom: 4px;">Recommendation Rate</div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">Locals would recommend to friends</p>
+        </div>
+        <div style="height: 60px; width: 1px; background-color: var(--border-light);" class="hide-mobile"></div>
+        <div>
+          <div style="font-size: 2.8rem; font-family: var(--font-serif); font-weight: 800; color: var(--golden);">#1</div>
+          <div style="color: var(--choco-dark); font-weight: 700; margin-bottom: 4px;">College Town Café</div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">Voted best study café 2025–2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Grid -->
+  <section style="padding: 80px 0 90px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Voices of Our Community</span>
+        <h2>What People Are Saying</h2>
+        <p>From quick morning bites before class to weekend brunch feasts, here are our guests' candid experiences.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Review 1 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"CrepeCrafters has completely ruined other breakfast places for me! The Nutella Strawberry crepe is pure art — the batter is impossibly thin yet holds its structure without getting soggy. Simply divine."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Sophia Martinez" class="author-avatar">
+            <div class="author-info">
+              <h4>Sophia Martinez</h4>
+              <p>College Senior & Food Blogger</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I was skeptical about savory crepes until I tried their Chicken Cheese fold. The herb-roasted chicken combined with melted cheddar and garlic sauce is my new staple post-workout meal. Outstanding quality."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Marcus Chen" class="author-avatar">
+            <div class="author-info">
+              <h4>Marcus Chen</h4>
+              <p>Software Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Blueberry Cheesecake crepe paired with their iced caramel macchiato is heavenly. Plus, the atmosphere is calm, the staff remembers your name, and the student discount is a lifesaver."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Emma Davis" class="author-avatar">
+            <div class="author-info">
+              <h4>Emma Davis</h4>
+              <p>Architecture Graduate Student</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"We brought our three kids for the Family Combo on Sunday morning. Not only did everyone find a sweet or savory crepe they loved, but watching the chefs spin the batter on the griddle kept the kids thrilled!"</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="David Sterling" class="author-avatar">
+            <div class="author-info">
+              <h4>David Sterling</h4>
+              <p>Neighborhood Parent & Teacher</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Custom Crepe builder on their website is so fun! I ordered chocolate batter, mango, caramel, and almonds. Picking it up fresh and warm right after class was the highlight of my Friday."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80" alt="Aaliyah Patel" class="author-avatar">
+            <div class="author-info">
+              <h4>Aaliyah Patel</h4>
+              <p>Design Student</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 6 -->
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"As a vegetarian, finding exciting café food can be tough. CrepeCrafters' Paneer Tikka and Sautéed Mushroom crepes are bursting with herbs, melted cheese, and authentic flavors. 10/10 recommend."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80" alt="Julian Meyer" class="author-avatar">
+            <div class="author-info">
+              <h4>Julian Meyer</h4>
+              <p>Photographer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Share Your Review Form Box -->
+      <div style="background-color: var(--bg-card); border-radius: var(--radius-xl); padding: 45px; border: 1px solid var(--border-light); box-shadow: var(--shadow-sm); max-width: 760px; margin: 60px auto 0;" class="reveal">
+        <div style="text-align: center; margin-bottom: 25px;">
+          <span class="section-tag">We Value Your Feedback</span>
+          <h3>Dined With Us Recently?</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Drop us a review and receive a 10% coupon for your next crepe!</p>
+        </div>
+
+        <form id="reviewSubmissionForm" onsubmit="event.preventDefault(); alert('✨ Thank you for your wonderful review! We look forward to seeing you again at CrepeCrafters.'); this.reset();">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+            <div>
+              <label style="display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 6px;">Your Name</label>
+              <input type="text" class="form-control" placeholder="e.g. Maya Lin" required>
+            </div>
+            <div>
+              <label style="display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 6px;">Rating</label>
+              <select class="form-control" required>
+                <option value="5">★★★★★ (5 Stars - Outstanding)</option>
+                <option value="4">★★★★☆ (4 Stars - Great)</option>
+                <option value="3">★★★☆☆ (3 Stars - Good)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label style="display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 6px;">Your Review / Favorite Crepe</label>
+            <textarea class="form-control" rows="3" placeholder="Tell us about the flavors, service, and experience you enjoyed..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Review</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="brand-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #fff;">Crepe<span style="color: var(--strawberry);">Crafters</span></span>
+              <span class="brand-tagline" style="color: #C0B1A7;">Sweet. Savory. Simply Delicious.</span>
+            </div>
+          </div>
+          <p>Handcrafting Parisian-style crepes with fresh local ingredients, artisanal batter, and boundless creativity. Visit us today for an unforgettable indulgence.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+            <a href="#" class="social-icon" aria-label="Pinterest">📌</a>
+            <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Our Café Story</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="offers.html">Special Combos</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="custom-crepe.html">Crepe Builder</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Crepe Delights</h4>
+          <ul class="footer-links">
+            <li><a href="sweet-crepes.html">Nutella Strawberry</a></li>
+            <li><a href="sweet-crepes.html">Blueberry Cheesecake</a></li>
+            <li><a href="sweet-crepes.html">Caramel Apple</a></li>
+            <li><a href="savory-crepes.html">Chicken Cheese</a></li>
+            <li><a href="savory-crepes.html">Mushroom Cheese</a></li>
+            <li><a href="savory-crepes.html">Paneer Tikka</a></li>
+            <li><a href="faq.html">Dietary & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit & Hours</h4>
+          <table class="footer-hours-table">
+            <tr><td class="day">Mon – Thu</td><td class="time">8:00 AM – 9:30 PM</td></tr>
+            <tr><td class="day">Fri – Sat</td><td class="time">8:00 AM – 11:00 PM</td></tr>
+            <tr><td class="day">Sunday</td><td class="time">9:00 AM – 9:00 PM</td></tr>
+          </table>
+          <p style="margin-top: 14px; font-size: 0.88rem; color: #C0B1A7;">
+            📍 42 Artisan Way, Gourmet District<br>
+            📞 (555) 782-7373<br>
+            ✉️ hello@crepecrafters.cafe
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CrepeCrafters. All rights reserved. Handcrafted with ❤️ for food lovers everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savory Crepes Menu | CrepeCrafters Gourmet Savory Folded Crepes</title>
+  <meta name="description" content="Savor CrepeCrafters gourmet savory crepes: Chicken Cheese, Mushroom Cheese, Vegetable Garden, Spinach Corn, BBQ Chicken, and spicy Paneer Tikka.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <span>📍 42 Artisan Way, Gourmet District</span>
+        <span>🕒 Open Daily: 8:00 AM – 10:00 PM</span>
+        <span>📞 (555) 782-7373</span>
+      </div>
+      <div>
+        <span class="top-bar-highlight">✨ College Special: 15% OFF with Student ID!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Crepe<span>Crafters</span></span>
+          <span class="brand-tagline">Sweet. Savory. Simply Delicious.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="sweet-crepes.html" class="nav-link">Sweet Crepes</a></li>
+        <li><a href="savory-crepes.html" class="nav-link active">Savory Crepes</a></li>
+        <li><a href="offers.html" class="nav-link">Offers</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="custom-crepe.html" class="nav-link">Custom Crepe</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="visit.html" class="nav-link">Visit Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="custom-crepe.html" class="btn btn-primary btn-sm">Build Crepe</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-header">
+      <div class="brand-name" style="font-size: 1.25rem;">Crepe<span>Crafters</span></div>
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="menu.html" class="mobile-nav-link">Menu</a>
+      <a href="sweet-crepes.html" class="mobile-nav-link">Sweet Crepes</a>
+      <a href="savory-crepes.html" class="mobile-nav-link active">Savory Crepes</a>
+      <a href="offers.html" class="mobile-nav-link">Offers</a>
+      <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+      <a href="custom-crepe.html" class="mobile-nav-link">Custom Crepe</a>
+      <a href="testimonials.html" class="mobile-nav-link">Testimonials</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="visit.html" class="mobile-nav-link">Visit Us</a>
+    </nav>
+  </aside>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content reveal">
+      <h1>Gourmet Savory Crepes</h1>
+      <p>Hearty, flavorful, and folded with artisan cheeses, farm-fresh greens, seasoned poultry, and bold spices.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <a href="menu.html">Menu</a>
+        <span>›</span>
+        <span>Savory Crepes</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Savory Crepes Grid (All 6 Items) -->
+  <section style="padding: 80px 0 100px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Savory Delights</span>
+        <h2>Handcrafted Savory Collection</h2>
+        <p>Cooked with our signature savory buckwheat-herbed batter, folded hot with molten cheeses and garden ingredients.</p>
+      </div>
+
+      <div class="crepe-grid">
+        <!-- 1. Chicken Cheese -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=800&q=80" alt="Chicken Cheese Crepe">
+            <span class="badge badge-savory crepe-badge">Bestseller</span>
+            <span class="crepe-price">$10.49</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 240 reviews)</span></div>
+            <h3 class="crepe-title">Chicken Cheese</h3>
+            <p class="crepe-desc">Tender roasted chicken strips, bubbling mozzarella, aged yellow cheddar, fresh baby spinach, and garlic-rosemary aioli drizzle.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 450 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Chicken Cheese" data-price="$10.49">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Mushroom Cheese -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" alt="Mushroom Cheese Crepe">
+            <span class="badge badge-savory crepe-badge">Vegetarian Choice</span>
+            <span class="crepe-price">$9.99</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.8 • 185 reviews)</span></div>
+            <h3 class="crepe-title">Mushroom Cheese</h3>
+            <p class="crepe-desc">Earthy cremini and button mushrooms sautéed in garlic French butter, Swiss Emmental cheese, caramelized shallots, and fresh thyme.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 390 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Mushroom Cheese" data-price="$9.99">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Vegetable Garden -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80" alt="Vegetable Garden Crepe">
+            <span class="badge badge-gold crepe-badge">Fresh & Healthy</span>
+            <span class="crepe-price">$9.25</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.7 • 160 reviews)</span></div>
+            <h3 class="crepe-title">Vegetable Garden</h3>
+            <p class="crepe-desc">Grilled zucchini, fire-roasted bell peppers, sun-ripened tomatoes, sweet corn, melted feta crumbles, and basil pesto.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 340 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Vegetable Garden" data-price="$9.25">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Spinach Corn -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Spinach Corn Crepe">
+            <span class="badge badge-savory crepe-badge">Comfort Classic</span>
+            <span class="crepe-price">$9.75</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.8 • 170 reviews)</span></div>
+            <h3 class="crepe-title">Spinach Corn</h3>
+            <p class="crepe-desc">Creamed farm baby spinach folded with sweet corn niblets, garlic béchamel sauce, freshly cracked black pepper, and melted gouda.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 380 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Spinach Corn" data-price="$9.75">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. BBQ Chicken -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80" alt="BBQ Chicken Crepe">
+            <span class="badge badge-hot crepe-badge">Hearty & Smoky</span>
+            <span class="crepe-price">$10.99</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 220 reviews)</span></div>
+            <h3 class="crepe-title">BBQ Chicken</h3>
+            <p class="crepe-desc">Slow-smoked shredded chicken tossed in sweet hickory chipotle barbecue sauce, pickled red onions, sharp cheddar, and cilantro.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 470 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="BBQ Chicken" data-price="$10.99">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Paneer Tikka -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80" alt="Paneer Tikka Crepe">
+            <span class="badge badge-hot crepe-badge">Fusion Favorite</span>
+            <span class="crepe-price">$10.25</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 295 reviews)</span></div>
+            <h3 class="crepe-title">Paneer Tikka</h3>
+            <p class="crepe-desc">Tandoor-charred cottage cheese cubes marinated in aromatic spices, sliced capsicum, minted Greek yogurt crema, and Monterey jack.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 420 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Paneer Tikka" data-price="$10.25">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Combo Pairings Advice -->
+      <div style="background-color: var(--bg-card); border-radius: var(--radius-xl); padding: 40px; margin-top: 60px; border: 1px solid var(--border-light); box-shadow: var(--shadow-sm);" class="reveal">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+          <div>
+            <span class="section-tag">Chef's Pairing Tip</span>
+            <h3 style="font-size: 1.5rem; margin-bottom: 6px;">Make It a Full Lunch Combo</h3>
+            <p style="color: var(--text-muted); margin: 0; max-width: 600px;">Pair any savory crepe with our freshly brewed iced tea or caramel macchiato and save \$2 on your check!</p>
+          </div>
+          <a href="offers.html" class="btn btn-primary">Check Special Combos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="brand-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #fff;">Crepe<span style="color: var(--strawberry);">Crafters</span></span>
+              <span class="brand-tagline" style="color: #C0B1A7;">Sweet. Savory. Simply Delicious.</span>
+            </div>
+          </div>
+          <p>Handcrafting Parisian-style crepes with fresh local ingredients, artisanal batter, and boundless creativity. Visit us today for an unforgettable indulgence.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+            <a href="#" class="social-icon" aria-label="Pinterest">📌</a>
+            <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Our Café Story</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="offers.html">Special Combos</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="custom-crepe.html">Crepe Builder</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Crepe Delights</h4>
+          <ul class="footer-links">
+            <li><a href="sweet-crepes.html">Nutella Strawberry</a></li>
+            <li><a href="sweet-crepes.html">Blueberry Cheesecake</a></li>
+            <li><a href="sweet-crepes.html">Caramel Apple</a></li>
+            <li><a href="savory-crepes.html">Chicken Cheese</a></li>
+            <li><a href="savory-crepes.html">Mushroom Cheese</a></li>
+            <li><a href="savory-crepes.html">Paneer Tikka</a></li>
+            <li><a href="faq.html">Dietary & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit & Hours</h4>
+          <table class="footer-hours-table">
+            <tr><td class="day">Mon – Thu</td><td class="time">8:00 AM – 9:30 PM</td></tr>
+            <tr><td class="day">Fri – Sat</td><td class="time">8:00 AM – 11:00 PM</td></tr>
+            <tr><td class="day">Sunday</td><td class="time">9:00 AM – 9:00 PM</td></tr>
+          </table>
+          <p style="margin-top: 14px; font-size: 0.88rem; color: #C0B1A7;">
+            📍 42 Artisan Way, Gourmet District<br>
+            📞 (555) 782-7373<br>
+            ✉️ hello@crepecrafters.cafe
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CrepeCrafters. All rights reserved. Handcrafted with ❤️ for food lovers everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

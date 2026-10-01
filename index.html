@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrepeCrafters | Sweet. Savory. Simply Delicious.</title>
+  <meta name="description" content="Welcome to CrepeCrafters! Modern artisan crepe café serving freshly prepared sweet and savory crepes, barista coffee, and custom crepe creations.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-info">
+        <span>📍 42 Artisan Way, Gourmet District</span>
+        <span>🕒 Open Daily: 8:00 AM – 10:00 PM</span>
+        <span>📞 (555) 782-7373</span>
+      </div>
+      <div>
+        <span class="top-bar-highlight">✨ College Special: 15% OFF with Student ID!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="navbar-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Crepe<span>Crafters</span></span>
+          <span class="brand-tagline">Sweet. Savory. Simply Delicious.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu (All 12 items) -->
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="sweet-crepes.html" class="nav-link">Sweet Crepes</a></li>
+        <li><a href="savory-crepes.html" class="nav-link">Savory Crepes</a></li>
+        <li><a href="offers.html" class="nav-link">Offers</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="custom-crepe.html" class="nav-link">Custom Crepe</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="visit.html" class="nav-link">Visit Us</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="custom-crepe.html" class="btn btn-primary btn-sm">Build Crepe</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-header">
+      <div class="brand-name" style="font-size: 1.25rem;">Crepe<span>Crafters</span></div>
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link active">Home</a>
+      <a href="about.html" class="mobile-nav-link">About</a>
+      <a href="menu.html" class="mobile-nav-link">Menu</a>
+      <a href="sweet-crepes.html" class="mobile-nav-link">Sweet Crepes</a>
+      <a href="savory-crepes.html" class="mobile-nav-link">Savory Crepes</a>
+      <a href="offers.html" class="mobile-nav-link">Offers</a>
+      <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+      <a href="custom-crepe.html" class="mobile-nav-link">Custom Crepe</a>
+      <a href="testimonials.html" class="mobile-nav-link">Testimonials</a>
+      <a href="faq.html" class="mobile-nav-link">FAQ</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="visit.html" class="mobile-nav-link">Visit Us</a>
+    </nav>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <span class="section-tag">✨ Modern Artisan Creperie</span>
+          <h1 class="hero-title">Delicious Crepes, <br><span class="accent-pink">Made Your Way</span></h1>
+          <p class="hero-description">
+            Experience delicate French-style crepes crafted fresh on cast-iron griddles. From rich hazelnut chocolate drips to melted gruyère herb fillings, every fold is pure happiness.
+          </p>
+          <div class="hero-cta-group">
+            <a href="menu.html" class="btn btn-primary btn-lg">Explore Menu</a>
+            <a href="custom-crepe.html" class="btn btn-outline btn-lg">Create Your Crepe</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>25+</h3>
+              <p>Fresh Flavors</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Organic Batter</p>
+            </div>
+            <div class="stat-item">
+              <h3>4.9★</h3>
+              <p>Customer Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap reveal">
+          <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1200&q=80" alt="Fresh strawberry nutella crepe with powdered sugar" class="hero-main-img">
+          
+          <div class="floating-badge floating-badge-1">
+            <div class="floating-badge-icon gold">🥞</div>
+            <div class="floating-badge-text">
+              <strong>Signature Batter</strong>
+              <small>Folded to perfection</small>
+            </div>
+          </div>
+
+          <div class="floating-badge floating-badge-2">
+            <div class="floating-badge-icon pink">🍓</div>
+            <div class="floating-badge-text">
+              <strong>Farm-Fresh Fruits</strong>
+              <small>Delivered daily</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Crepes Showcase -->
+  <section style="padding: 90px 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Customer Favorites</span>
+        <h2>Most Loved Crepes</h2>
+        <p>Handpicked classics that our patrons keep coming back for every single day.</p>
+      </div>
+
+      <div class="crepe-grid">
+        <!-- Item 1 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=800&q=80" alt="Nutella Strawberry Crepe">
+            <span class="badge badge-sweet crepe-badge">Bestseller</span>
+            <span class="crepe-price">$8.99</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 312 reviews)</span></div>
+            <h3 class="crepe-title">Nutella Strawberry</h3>
+            <p class="crepe-desc">Decadent Italian Nutella hazelnut spread generously layered with sliced ripe farm strawberries and dusted with powdered sugar.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 380 kcal</span>
+              <button class="btn btn-primary btn-sm btn-order-quick" data-item="Nutella Strawberry" data-price="$8.99">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=800&q=80" alt="Chicken Cheese Crepe">
+            <span class="badge badge-savory crepe-badge">Chef's Choice</span>
+            <span class="crepe-price">$10.49</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.8 • 240 reviews)</span></div>
+            <h3 class="crepe-title">Chicken Cheese</h3>
+            <p class="crepe-desc">Tender herb-marinated chicken breast, melted mozzarella and aged cheddar, baby spinach, and a hint of garlic rosemary crema.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 450 kcal</span>
+              <button class="btn btn-secondary btn-sm btn-order-quick" data-item="Chicken Cheese" data-price="$10.49">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=800&q=80" alt="Blueberry Cheesecake Crepe">
+            <span class="badge badge-gold crepe-badge">Signature Sweet</span>
+            <span class="crepe-price">$9.49</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 198 reviews)</span></div>
+            <h3 class="crepe-title">Blueberry Cheesecake</h3>
+            <p class="crepe-desc">Fluffy whipped cream cheese filling paired with simmered wild Maine blueberries and crushed graham cracker crumble.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 410 kcal</span>
+              <button class="btn btn-primary btn-sm btn-order-quick" data-item="Blueberry Cheesecake" data-price="$9.49">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 45px;">
+        <a href="menu.html" class="btn btn-outline btn-lg">View Entire Menu →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Items Highlights -->
+  <section style="background-color: var(--bg-warm-light); padding: 90px 0;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Artisan Creations</span>
+        <h2>Featured This Season</h2>
+        <p>Explore both our sweet indulgences and warm savory culinary folded specialties.</p>
+      </div>
+
+      <div class="crepe-grid">
+        <!-- Feature 1 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80" alt="Mushroom Cheese Crepe">
+            <span class="badge badge-savory crepe-badge">Savory Fusion</span>
+            <span class="crepe-price">$9.99</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 165 reviews)</span></div>
+            <h3 class="crepe-title">Mushroom Cheese</h3>
+            <p class="crepe-desc">Sautéed button and portobello mushrooms folded with melted Swiss cheese, fresh thyme, and caramelized shallots.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 390 kcal</span>
+              <a href="savory-crepes.html" class="btn btn-secondary btn-sm">Explore Savory</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=800&q=80" alt="Chocolate Banana Crepe">
+            <span class="badge badge-sweet crepe-badge">Classic Sweet</span>
+            <span class="crepe-price">$8.49</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.8 • 280 reviews)</span></div>
+            <h3 class="crepe-title">Chocolate Banana</h3>
+            <p class="crepe-desc">Thin slices of ripe Cavendish banana drenched in Belgian dark chocolate sauce with toasted almond slivers.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 360 kcal</span>
+              <a href="sweet-crepes.html" class="btn btn-primary btn-sm">Explore Sweet</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="crepe-card reveal">
+          <div class="crepe-img-wrap">
+            <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80" alt="Paneer Tikka Crepe">
+            <span class="badge badge-hot crepe-badge">Spicy Kick</span>
+            <span class="crepe-price">$10.25</span>
+          </div>
+          <div class="crepe-body">
+            <div class="crepe-rating">★★★★★ <span>(4.9 • 140 reviews)</span></div>
+            <h3 class="crepe-title">Paneer Tikka</h3>
+            <p class="crepe-desc">Tandoor-spiced cottage cheese cubes, bell peppers, mint mayo drizzle, and melted cheddar inside a golden crepe wrap.</p>
+            <div class="crepe-footer">
+              <span class="crepe-calories">🔥 420 kcal</span>
+              <a href="savory-crepes.html" class="btn btn-secondary btn-sm">Explore Savory</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offer Banner -->
+  <div class="container">
+    <div class="special-offer-banner reveal">
+      <div class="banner-grid">
+        <div class="banner-text">
+          <span class="banner-promo-tag">Limited Time Promotion</span>
+          <h2>Buy 1 Get 1 Sweet Crepe Every Wednesday!</h2>
+          <p>Bring a classmate, friend, or partner. Order any signature sweet crepe and get the second of equal or lesser value completely on the house.</p>
+        </div>
+        <div>
+          <a href="offers.html" class="btn btn-gold btn-lg">Claim All Deals</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Rating Section -->
+  <section style="padding: 70px 0 90px;">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Loved By Crepe Lovers</span>
+        <h2>Why Foodies Adore Us</h2>
+        <p>Real praise from our wonderful community of students, families, and brunch enthusiasts.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"CrepeCrafters makes by far the best crepes in the entire city. The Nutella Strawberry is pure poetry on a plate, and the café vibe is cozy for studying."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="Sophia Martinez" class="author-avatar">
+            <div class="author-info">
+              <h4>Sophia Martinez</h4>
+              <p>College Student & Food Blogger</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Chicken Cheese savory crepe blew my mind! Crisp edges, gooey center, and the custom crepe builder lets me customize my dream post-workout lunch."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Marcus Chen" class="author-avatar">
+            <div class="author-info">
+              <h4>Marcus Chen</h4>
+              <p>Software Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="quote-icon">“</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Outstanding service, warm staff, and an authentic Parisian crepe taste. The weekend combos are unbeatable value for brunch with friends."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Emma Davis" class="author-avatar">
+            <div class="author-info">
+              <h4>Emma Davis</h4>
+              <p>Local Architect</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="testimonials.html" class="btn btn-outline">Read All 500+ Reviews →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Call To Action -->
+  <section style="background: linear-gradient(135deg, var(--choco-dark) 0%, var(--choco-main) 100%); color: #fff; padding: 75px 0; text-align: center;">
+    <div class="container reveal">
+      <span class="section-tag" style="background-color: rgba(212, 175, 55, 0.2); color: var(--golden);">Interactive Experience</span>
+      <h2 style="color: #fff; margin-bottom: 16px;">Craving Something Unique?</h2>
+      <p style="color: #D6CBC4; max-width: 600px; margin: 0 auto 30px; font-size: 1.1rem;">
+        Choose your favorite batter, fresh berries, decadent sauces, and crunchy toppings with our live custom crepe calculator!
+      </p>
+      <a href="custom-crepe.html" class="btn btn-primary btn-lg">Launch Crepe Builder 🥞</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="brand-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #fff;">Crepe<span style="color: var(--strawberry);">Crafters</span></span>
+              <span class="brand-tagline" style="color: #C0B1A7;">Sweet. Savory. Simply Delicious.</span>
+            </div>
+          </div>
+          <p>Handcrafting Parisian-style crepes with fresh local ingredients, artisanal batter, and boundless creativity. Visit us today for an unforgettable indulgence.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+            <a href="#" class="social-icon" aria-label="Pinterest">📌</a>
+            <a href="#" class="social-icon" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Our Café Story</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="offers.html">Special Combos</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="custom-crepe.html">Crepe Builder</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Crepe Delights</h4>
+          <ul class="footer-links">
+            <li><a href="sweet-crepes.html">Nutella Strawberry</a></li>
+            <li><a href="sweet-crepes.html">Blueberry Cheesecake</a></li>
+            <li><a href="sweet-crepes.html">Caramel Apple</a></li>
+            <li><a href="savory-crepes.html">Chicken Cheese</a></li>
+            <li><a href="savory-crepes.html">Mushroom Cheese</a></li>
+            <li><a href="savory-crepes.html">Paneer Tikka</a></li>
+            <li><a href="faq.html">Dietary & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit & Hours</h4>
+          <table class="footer-hours-table">
+            <tr><td class="day">Mon – Thu</td><td class="time">8:00 AM – 9:30 PM</td></tr>
+            <tr><td class="day">Fri – Sat</td><td class="time">8:00 AM – 11:00 PM</td></tr>
+            <tr><td class="day">Sunday</td><td class="time">9:00 AM – 9:00 PM</td></tr>
+          </table>
+          <p style="margin-top: 14px; font-size: 0.88rem; color: #C0B1A7;">
+            📍 42 Artisan Way, Gourmet District<br>
+            📞 (555) 782-7373<br>
+            ✉️ hello@crepecrafters.cafe
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CrepeCrafters. All rights reserved. Handcrafted with ❤️ for food lovers everywhere.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
